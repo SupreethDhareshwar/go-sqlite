@@ -10,8 +10,12 @@
 Go to https://github.com/shiftkey/desktop/releases and download latest release 
 To install `sudo dpkg -i <file>.deb`
 * Install Docker and Docker-Compose 
-* Setup Go (We are using 1.12)
+* Setup Go (We are using 1.12) at ~/go 
+* Setup Env variables like GOPATH and GOROOT in ~/.bashrc
+`export GOPATH=$HOME/.go`
+`export PATH="$PATH:$HOME/go/bin:$GOROOT/bin:$GOPATH/bin"`
 * Setup Project at ~/.go/src/
 * Install Go Plugin for VSCode
-* Install dep package to manager all project package dependencies
-
+* Install dep package to manage all project package dependencies
+* `$ cd ~/.go/src/go-sqlite`
+* `dep init`
