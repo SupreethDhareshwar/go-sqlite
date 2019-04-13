@@ -9,7 +9,9 @@
 * Setup Github Desktop
 Go to https://github.com/shiftkey/desktop/releases and download latest release 
 To install `sudo dpkg -i <file>.deb`
-* Setup Go
+* Install Docker and Docker-Compose 
+* Setup Go (We are using 1.12)
+* Setup Project at ~/.go/src/
 * Install Go Plugin for VSCode
 * Install dep package to manager all project package dependencies
 
