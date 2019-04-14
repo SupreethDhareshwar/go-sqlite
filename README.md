@@ -18,4 +18,5 @@ To install `sudo dpkg -i <file>.deb`
 * Install Go Plugin for VSCode
 * Install dep package to manage all project package dependencies
 * `$ cd ~/.go/src/go-sqlite`
-* `dep init`
+* `dep init` - This creates Gopkg.toml,Gopkg.lock and vendor folder 
+* Project is all setup, time to start installing packages and start coding
