@@ -26,3 +26,5 @@
 - Create a new file main.go. This will be a satrting point of application
 
 - Create a folder model. This will store all your application model files
+
+- Create a Makefile. This will hold all your project commands
