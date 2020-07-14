@@ -6,7 +6,7 @@ GOTEST=$(GOCMD) test
 GOGET=$(GOCMD) get
 BINARY_NAME=main
     
-all: app
+all: clean app
 app: 
 	$(GOBUILD) -o $(BINARY_NAME) -v
 clean: 
