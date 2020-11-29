@@ -21,7 +21,8 @@
 
 ## Setup Project
 
-- Create a new file main.go. This will be a satrting point of application
-- Create a folder model. This will store all your application model files
+- Create a new file main.go. This will be a starting point of application 
+- Create a folder model. This will store all your application model and schema files
+- Create a folder config. This will contain logic related to configuration
 - Create a Makefile. This will hold all your project commands
 - 
