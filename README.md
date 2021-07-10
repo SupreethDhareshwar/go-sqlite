@@ -11,7 +11,7 @@
   To install `sudo dpkg -i <file>.deb`
 - Install Docker and Docker-Compose
 - Download latest Go Version from https://golang.org/dl/
-- Setup Go (We are using 1.14) at /usr/local/go
+- Setup Go (We are using 1.16.5) at /usr/local/go
 - Setup Env variables like GOPATH and GOROOT in ~/.profile
   `export PATH=$PATH:/usr/local/go/bin`
 - Install Go Plugin for VSCode
